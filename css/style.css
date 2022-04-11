@@ -25,14 +25,8 @@ table {
   margin: 0 10px;
 }
 
-thead {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-thead tr {
+caption {
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,12 +35,6 @@ thead tr {
   font-weight: 800;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-thead td {
-  margin-top: 7px;
-  border-top: 3px solid rgba(255, 255, 255, 0.5);
-  width: 75%;
 }
 
 tbody {
